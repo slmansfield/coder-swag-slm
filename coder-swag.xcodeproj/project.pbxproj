@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7F1FF6FF24792D0F009CD5DD /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1FF6FE24792D0F009CD5DD /* Category.swift */; };
+		7F1FF720247A9F84009CD5DD /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1FF71F247A9F84009CD5DD /* DataService.swift */; };
 		7FAEB9102479223C00EC7764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAEB90F2479223C00EC7764 /* AppDelegate.swift */; };
 		7FAEB9122479223C00EC7764 /* CatagoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAEB9112479223C00EC7764 /* CatagoriesVC.swift */; };
 		7FAEB9152479223C00EC7764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FAEB9132479223C00EC7764 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		7F1FF6FE24792D0F009CD5DD /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		7F1FF71F247A9F84009CD5DD /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		7FAEB90C2479223C00EC7764 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FAEB90F2479223C00EC7764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FAEB9112479223C00EC7764 /* CatagoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoriesVC.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F1FF71E247A9F68009CD5DD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7F1FF71F247A9F84009CD5DD /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		7FAEB9032479223C00EC7764 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		7FAEB90E2479223C00EC7764 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				7F1FF71E247A9F68009CD5DD /* Services */,
 				7FAEB9232479279200EC7764 /* View */,
 				7FAEB9222479278400EC7764 /* Model */,
 				7FAEB9212479277900EC7764 /* Controller */,
@@ -169,6 +180,7 @@
 				7FAEB9122479223C00EC7764 /* CatagoriesVC.swift in Sources */,
 				7FAEB9102479223C00EC7764 /* AppDelegate.swift in Sources */,
 				7F1FF6FF24792D0F009CD5DD /* Category.swift in Sources */,
+				7F1FF720247A9F84009CD5DD /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

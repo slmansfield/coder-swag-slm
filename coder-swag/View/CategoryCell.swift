@@ -15,6 +15,7 @@ class CategoryCell: UITableViewCell {
     
     
     func updateViews(category: Category){
-        categoryImage.image = UIImage(named: category.Imagename)
+        categoryImage.image = UIImage(named: category.imageName)
+        categoryTitle.text = category.title
     }
 }
